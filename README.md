@@ -4,6 +4,10 @@
 
 https://youtu.be/vVF83BcZaNA
 
+## Tutorial PDF :
+
+[PDF](file/UAS_BHS_PEMROGRAMAN.pdf)  
+
 # Struktur Package & Module
 
 ![gambar 1](ss/1.png)
