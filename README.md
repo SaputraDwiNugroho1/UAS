@@ -1,5 +1,9 @@
 # UAS
 
+## Link Youtuberr :
+
+https://youtu.be/vVF83BcZaNA
+
 # Struktur Package & Module
 
 ![gambar 1](ss/1.png)
@@ -10,7 +14,7 @@
 
 daftar_nilai
 
-- Tambah data
+TAMBAH DATA
 
 + data = {} untuk menampung list data yang nanti akan terinput
 + deklarasikan fungsi def tambah_data():
@@ -19,7 +23,7 @@ daftar_nilai
 + data[nama] = [nama, nim, nilai_tugas, nilai_uts, nilai_uas, nilai_akhir] kita akan masukkan data yang tadi kita input ke dalam `data[nama]'
 + lalu cetak print()
 
-- Ubah data
+UBAH DATA
 
 + deklarasikan fungsi def ubah_data(): nama = input("Masukan nama untuk mengubah data: ") kita akan menginput data yang nanti akan di ubah
 + if nama in data.keys(): print("Mau mengubah apa?") jika 'nama' dari di dalam 'data' maka akan mengembalikan daftar menggunakan fungsi 'keys()' lalu di cetak lah 'print()'
@@ -29,9 +33,9 @@ daftar_nilai
 + lalu cetak print("\nBerhasil ubah data!")
 + Jika kita ingin mengubah data tertentu maka elif sub_data.lower() == "nim": data[nama][1] = input("NIM:") dan berlaku juga untuk nilai tugas, UTS dan UAS
 + lalu cetak print("\nBerhasil ubah data!")
-+ else: print("'{}' tidak ditemukan.".format(nama)) jika kita salah dalam memasukkan nama untuk mengubah data maka akan muncul 'nama tidak di temukan+ + + + + + '
++ else: print("'{}' tidak ditemukan.".format(nama)) jika kita salah dalam memasukkan nama untuk mengubah data maka akan muncul 'nama tidak di temukan'
 
-- Cari data
+CARI DATA
 
 + deklarasikan fungsi def cari_data():
 + nama = input("Masukan nama untuk mencari data: ") kita akan menginput data yang nanti akan dicari
@@ -54,8 +58,8 @@ view_nilai - deklarasikan fungsi def lihat_data(): kita menggunakan kondisi perc
 Lalu yang terakhir kita eksekusi file main.py
 
 
-
 from Model.daftar_nilai import *
+
 from View.view_nilai import *
 
 #Mulai
@@ -116,4 +120,5 @@ while True:
 ![gambar 6](ss/6.png)
 
 - Tampilan Hapus Data
+
 ![gambar 7](ss/7.png)
